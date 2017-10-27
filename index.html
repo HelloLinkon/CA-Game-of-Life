@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game of Life</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+		}
+		[class^="box"]{
+			width: 10px;
+			height: 10px;
+			border: 1px solid black;
+			margin: 0;
+			box-sizing: border-box;
+			display: inline-block;
+		}
+
+		.black{
+			background: black;
+		}
+
+		[class^="row"] {
+		    margin: 0;
+		    padding: 0;
+		    height: 10px;
+		}
+		#btn{
+			background: coral;
+			border: none;
+			margin: 10px;
+			font-size: 14px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+
+<div class="stage">
+	
+</div>
+<div>
+	<button id="btn">step</button>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
